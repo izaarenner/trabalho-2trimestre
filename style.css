@@ -8,14 +8,14 @@ body {
 
 header {
     background: #00695c;
-    color: white;
+    color: rgb(40, 236, 236);
     padding: 1rem 0;
     text-align: center;
 }
 
 nav {
     background: #004d40;
-    color: white;
+    color: rgb(101, 203, 243);
     overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(173, 202, 214);
     text-decoration: none;
     padding: 1rem;
     display: block;
