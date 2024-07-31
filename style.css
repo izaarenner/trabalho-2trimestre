@@ -14,9 +14,12 @@ header {
 }
 
 nav {
-    background: #004d40;
-    color: rgb(101, 203, 243);
-    overflow: hidden;
+    background-image: linear-gradient(#383D58, #00c0eb);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
 nav ul {
