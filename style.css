@@ -13,13 +13,18 @@ header {
     text-align: center;
 }
 
-header{
-    background-image: linear-gradient(#383D58, #00c0eb);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 250px;
+body{
+    body {
+        /* Define um degradê linear do topo (top) para o fundo (bottom) */
+        background: linear-gradient(to bottom, #0000ff, #00ffff);
+        /* Alternativa com mais navegadores */
+        background: -webkit-linear-gradient(top, #0000ff, #00ffff); /* Para navegadores Webkit */
+        background: -moz-linear-gradient(top, #0000ff, #00ffff); /* Para navegadores Mozilla */
+        background: -o-linear-gradient(top, #0000ff, #00ffff); /* Para navegadores Opera */
+        background: -ms-linear-gradient(top, #0000ff, #00ffff); /* Para navegadores IE */
+        height: 100vh; /* Define a altura da página para preencher a tela */
+        margin: 0; /* Remove margens padrão */
+    }
 }
 
 nav ul {
